@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Publications · Tioma Deparpe</title>
+  <meta name="description" content="Mémoires, articles et documents de Tioma Deparpe.">
+  <meta name="theme-color" content="#c8553d">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TD</span>Tioma Deparpe</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span></span><span class="visually-hidden">Menu</span></button>
+        <ul class="nav-links" id="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="recherche.html">Recherche</a></li>
+          <li><a href="enseignement.html">Enseignement</a></li>
+          <li><a href="publications.html" aria-current="page">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero page-hero">
+      <div class="container">
+        <span class="eyebrow">Publications</span>
+        <h1>Publications et documents</h1>
+        <p>Mémoires à télécharger, articles en préparation et autres documents liés à mes <a href="recherche.html">recherches</a>.</p>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40c240 40 480 40 720 20S1200 0 1440 30v50H0Z"/></svg>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filtrer par type">
+          <button class="filter" type="button" data-filter="tous" aria-pressed="true">Tous</button>
+          <button class="filter" type="button" data-filter="memoires" aria-pressed="false">Mémoires</button>
+          <button class="filter" type="button" data-filter="articles" aria-pressed="false">Articles</button>
+          <button class="filter" type="button" data-filter="autres" aria-pressed="false">Autres</button>
+        </div>
+
+        <!-- Mémoires -->
+        <div data-group="memoires">
+          <h2 class="section-title">Mémoires</h2>
+          <div class="pub-list" style="margin-bottom:3rem">
+            <!-- Pour ajouter un mémoire : copier un bloc <article>, déposer le PDF dans documents/ et mettre à jour le href -->
+            <article class="card pub reveal" data-type="memoires" id="pinn">
+              <span class="pub-year">2026</span>
+              <div>
+                <div class="pub-type"><span class="tag">Mémoire</span></div>
+                <h3>Physics-Informed Neural Networks for Differential Equations</h3>
+                <p class="pub-desc">Réseaux de neurones informés par la physique (PINN) pour résoudre des équations différentielles : fonctions de perte, descente de gradient, comparaison avec les méthodes numériques classiques. Codes Python en annexe.</p>
+              </div>
+              <a class="btn" href="documents/memoire-pinn.pdf" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+                PDF
+              </a>
+            </article>
+            <article class="card pub reveal" data-type="memoires" id="wave-front-tracking">
+              <span class="pub-year">2025</span>
+              <div>
+                <div class="pub-type"><span class="tag">Mémoire de Master 2</span></div>
+                <h3>Algorithme de Wave Front Tracking</h3>
+                <p class="pub-desc">Master 2 Mathématiques, 2024-2025 · tuteur : Boris Andreianov. Problème de Riemann, solutions entropiques de Kruzhkov, convergence de l'algorithme et implémentation en Python pour le flux de Burgers.</p>
+              </div>
+              <a class="btn" href="documents/memoire-m2-wave-front-tracking.pdf" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+                PDF
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- Articles -->
+        <div data-group="articles">
+          <h2 class="section-title">Articles</h2>
+          <div class="pub-list" style="margin-bottom:3rem">
+            <article class="card pub reveal" data-type="articles">
+              <span class="pub-year">—</span>
+              <div>
+                <h3>Articles en préparation</h3>
+                <p class="pub-desc">Les premiers travaux de thèse, sur les <a href="recherche.html#these">lois de conservation à flux singulier et non local</a>, apparaîtront ici dès leur prépublication.</p>
+              </div>
+              <span class="badge-soon">À venir</span>
+            </article>
+          </div>
+        </div>
+
+        <!-- Autres documents -->
+        <div data-group="autres">
+          <h2 class="section-title">Autres documents</h2>
+          <div class="pub-list">
+            <article class="card pub reveal" data-type="autres">
+              <span class="pub-year">—</span>
+              <div>
+                <h3>Exposés, posters, notes</h3>
+                <p class="pub-desc">Supports d'exposés et de posters présentés lors des <a href="recherche.html">activités de recherche</a>.</p>
+              </div>
+              <span class="badge-soon">À venir</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>Une question sur ces travaux ?</h2>
+            <p>tioma.deparpe@univ-tours.fr</p>
+          </div>
+          <a class="btn" href="mailto:tioma.deparpe@univ-tours.fr">Écrire un mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <button class="to-top" type="button" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+</body>
+</html>

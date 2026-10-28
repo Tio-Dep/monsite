@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Recherche · Tioma Deparpe</title>
+  <meta name="description" content="Thèmes de recherche de Tioma Deparpe : analyse, EDP, lois de conservation scalaires, dynamique piétonnière, apprentissage profond, problèmes inverses.">
+  <meta name="theme-color" content="#c8553d">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TD</span>Tioma Deparpe</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span></span><span class="visually-hidden">Menu</span></button>
+        <ul class="nav-links" id="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="recherche.html" aria-current="page">Recherche</a></li>
+          <li><a href="enseignement.html">Enseignement</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero page-hero">
+      <div class="container">
+        <span class="eyebrow">Recherche</span>
+        <h1>Intérêts et activités</h1>
+        <p>Mes travaux portent sur l'analyse des équations aux dérivées partielles hyperboliques, leur simulation numérique et l'identification de leurs paramètres à partir de données.</p>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40c240 40 480 40 720 20S1200 0 1440 30v50H0Z"/></svg>
+    </section>
+
+    <!-- Thèse -->
+    <section class="section section-soft" id="these">
+      <div class="container">
+        <article class="thesis reveal">
+          <span class="tag">Sujet de thèse</span>
+          <p class="thesis-title">« Lois de conservation à flux singulier et non local, modèles numériques et identification des paramètres »</p>
+          <!-- À COMPLÉTER : résumé de la thèse en quelques phrases -->
+          <p>Les lois de conservation décrivent l'évolution d'une quantité (densité de piétons, de véhicules…) transportée par un flux. Ma thèse s'intéresse aux cas où ce flux est <strong>singulier</strong> (discontinu, ou présentant des contraintes ponctuelles) ou <strong>non local</strong> (dépendant d'une moyenne de la densité autour de chaque point). J'étudie le caractère bien posé de ces modèles, je construis des schémas numériques convergents et je développe des méthodes, y compris par apprentissage profond, pour en identifier les paramètres à partir d'observations.</p>
+          <p style="margin-bottom:0">Thèse préparée à l'<a href="https://www.idpoisson.fr/" target="_blank" rel="noopener">Institut Denis Poisson</a> sous la direction de <a href="index.html#contenu">Boris Andreianov et Vincent Perrollaz</a>.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Domaines -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Domaines</h2>
+        <p class="section-intro">Les thèmes autour desquels s'organise mon travail.</p>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c4-1 5-6 6-10s2-7 6-6"/><path d="M14 20h6M4 4v16h16"/></svg>
+            </div>
+            <h3>Analyse</h3>
+            <p>Espaces fonctionnels, compacité et estimations a priori : les outils qui permettent de démontrer l'existence et l'unicité des solutions.</p>
+            <div class="tags"><span class="tag">Analyse fonctionnelle</span><span class="tag">Fonctions BV</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble ochre" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4M7 4v6M4 14h6M15 6a3 3 0 1 1 0 6 3 3 0 1 1 0-6Z"/><path d="M13 16l6 4M19 16l-6 4"/></svg>
+            </div>
+            <h3>Équations aux dérivées partielles</h3>
+            <p>Équations d'évolution hyperboliques, solutions faibles et entropiques, caractère bien posé.</p>
+            <div class="tags"><span class="tag">EDP hyperboliques</span><span class="tag">Solutions entropiques</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble olive" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h5l3-8h10"/><path d="M3 8h5"/></svg>
+            </div>
+            <h3>Lois de conservation scalaires</h3>
+            <p>Flux discontinus, contraintes ponctuelles et flux non locaux ; schémas de volumes finis et leur convergence.</p>
+            <div class="tags"><span class="tag">Flux singulier</span><span class="tag">Non local</span><span class="tag">Volumes finis</span></div>
+            <a class="more" href="publications.html#wave-front-tracking">Mémoire : Wave Front Tracking</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4.5" r="1.8"/><path d="M7 7v6l-2 7M7 13l2 7M4 10h6"/><circle cx="17" cy="4.5" r="1.8"/><path d="M17 7v6l-2 7M17 13l2 7M14 10h6"/></svg>
+            </div>
+            <h3>Dynamique piétonnière</h3>
+            <p>Modélisation macroscopique des foules : évacuations, goulots d'étranglement, interactions à distance entre piétons.</p>
+            <div class="tags"><span class="tag">Modèles macroscopiques</span><span class="tag">Trafic</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble ochre" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="m7 7 3 4M7 17l3-4M14 11l3-4M14 13l3 4"/></svg>
+            </div>
+            <h3>Apprentissage profond</h3>
+            <p>Réseaux de neurones pour approcher des solutions d'EDP et accélérer l'estimation de paramètres.</p>
+            <div class="tags"><span class="tag">Réseaux de neurones</span><span class="tag">PINN</span><span class="tag">Calcul scientifique</span></div>
+            <a class="more" href="publications.html#pinn">Mémoire : PINN</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble olive" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <h3>Problèmes inverses</h3>
+            <p>Retrouver les paramètres d'un modèle (flux, coefficients, conditions aux limites) à partir de mesures partielles.</p>
+            <div class="tags"><span class="tag">Identification</span><span class="tag">Optimisation</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activités -->
+    <section class="section section-soft">
+      <div class="container">
+        <h2 class="section-title">Activités</h2>
+        <p class="section-intro">Séminaires, conférences et groupes de travail.</p>
+        <!-- À COMPLÉTER : ajouter une <li> par activité, sur le modèle ci-dessous -->
+        <ul class="timeline">
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>Séminaire des doctorants</h3>
+                <span class="course-meta">Institut Denis Poisson · Tours</span>
+              </div>
+              <p>Participation régulière. <!-- À COMPLÉTER : exposés donnés, dates --></p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>Conférences et écoles d'été</h3>
+                <span class="course-meta">À venir</span>
+              </div>
+              <p>La liste des communications sera mise à jour au fil de la thèse.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>Mémoires et articles</h2>
+            <p>Les documents issus de ces travaux sont réunis sur la page Publications.</p>
+          </div>
+          <a class="btn" href="publications.html">Voir les publications</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <button class="to-top" type="button" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+</body>
+</html>
