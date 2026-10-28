@@ -48,8 +48,9 @@
         <article class="thesis reveal">
           <span class="tag">Sujet de thèse</span>
           <p class="thesis-title">« Lois de conservation à flux singulier et non local, modèles numériques et identification des paramètres »</p>
-          <!-- À COMPLÉTER : résumé de la thèse en quelques phrases -->
-          <p>Les lois de conservation décrivent l'évolution d'une quantité (densité de piétons, de véhicules…) transportée par un flux. Ma thèse s'intéresse aux cas où ce flux est <strong>singulier</strong> (discontinu, ou présentant des contraintes ponctuelles) ou <strong>non local</strong> (dépendant d'une moyenne de la densité autour de chaque point). J'étudie le caractère bien posé de ces modèles, je construis des schémas numériques convergents et je développe des méthodes, y compris par apprentissage profond, pour en identifier les paramètres à partir d'observations.</p>
+          <!-- Résumé issu de theses.fr -->
+          <p>Ce projet de thèse porte sur l'étude théorique, numérique et inverse des lois de conservation scalaires à flux singulier et non-local, motivées par la modélisation des dispositifs de transport de marchandises (<em>conveyor belts</em>) et des dynamiques de trafic. Il vise à analyser des modèles hyperboliques présentant une vitesse infinie de propagation, à développer des schémas numériques robustes (Volumes Finis, Wave-Front Tracking, Follow-the-Leader), puis à intégrer des approches d'apprentissage profond pour l'identification de paramètres cachés et l'assimilation de données.</p>
+          <p>Une librairie open source sera construite pour la communauté, avant d'aborder soit l'analyse théorique des méthodes hybrides, soit l'extension du modèle aux réseaux de convoyeurs via des solveurs de Riemann et une reformulation Hamilton-Jacobi.</p>
           <p style="margin-bottom:0">Thèse préparée à l'<a href="https://www.idpoisson.fr/" target="_blank" rel="noopener">Institut Denis Poisson</a> sous la direction de <a href="index.html#contenu">Boris Andreianov et Vincent Perrollaz</a>.</p>
         </article>
       </div>
@@ -66,7 +67,6 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c4-1 5-6 6-10s2-7 6-6"/><path d="M14 20h6M4 4v16h16"/></svg>
             </div>
             <h3>Analyse</h3>
-            <p>Espaces fonctionnels, compacité et estimations a priori : les outils qui permettent de démontrer l'existence et l'unicité des solutions.</p>
             <div class="tags"><span class="tag">Analyse fonctionnelle</span><span class="tag">Fonctions BV</span></div>
           </article>
 
@@ -75,7 +75,6 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4M7 4v6M4 14h6M15 6a3 3 0 1 1 0 6 3 3 0 1 1 0-6Z"/><path d="M13 16l6 4M19 16l-6 4"/></svg>
             </div>
             <h3>Équations aux dérivées partielles</h3>
-            <p>Équations d'évolution hyperboliques, solutions faibles et entropiques, caractère bien posé.</p>
             <div class="tags"><span class="tag">EDP hyperboliques</span><span class="tag">Solutions entropiques</span></div>
           </article>
 
@@ -84,7 +83,6 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h5l3-8h10"/><path d="M3 8h5"/></svg>
             </div>
             <h3>Lois de conservation scalaires</h3>
-            <p>Flux discontinus, contraintes ponctuelles et flux non locaux ; schémas de volumes finis et leur convergence.</p>
             <div class="tags"><span class="tag">Flux singulier</span><span class="tag">Non local</span><span class="tag">Volumes finis</span></div>
             <a class="more" href="publications.html#wave-front-tracking">Mémoire : Wave Front Tracking</a>
           </article>
@@ -94,7 +92,6 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4.5" r="1.8"/><path d="M7 7v6l-2 7M7 13l2 7M4 10h6"/><circle cx="17" cy="4.5" r="1.8"/><path d="M17 7v6l-2 7M17 13l2 7M14 10h6"/></svg>
             </div>
             <h3>Dynamique piétonnière</h3>
-            <p>Modélisation macroscopique des foules : évacuations, goulots d'étranglement, interactions à distance entre piétons.</p>
             <div class="tags"><span class="tag">Modèles macroscopiques</span><span class="tag">Trafic</span></div>
           </article>
 
@@ -103,7 +100,6 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="m7 7 3 4M7 17l3-4M14 11l3-4M14 13l3 4"/></svg>
             </div>
             <h3>Apprentissage profond</h3>
-            <p>Réseaux de neurones pour approcher des solutions d'EDP et accélérer l'estimation de paramètres.</p>
             <div class="tags"><span class="tag">Réseaux de neurones</span><span class="tag">PINN</span><span class="tag">Calcul scientifique</span></div>
             <a class="more" href="publications.html#pinn">Mémoire : PINN</a>
           </article>
@@ -113,15 +109,15 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/><circle cx="12" cy="12" r="2"/></svg>
             </div>
             <h3>Problèmes inverses</h3>
-            <p>Retrouver les paramètres d'un modèle (flux, coefficients, conditions aux limites) à partir de mesures partielles.</p>
             <div class="tags"><span class="tag">Identification</span><span class="tag">Optimisation</span></div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Activités -->
-    <section class="section section-soft">
+    <!-- Activités : section masquée pour l'instant (attribut hidden).
+         Pour l'afficher, retirer « hidden » ci-dessous. -->
+    <section class="section section-soft" hidden>
       <div class="container">
         <h2 class="section-title">Activités</h2>
         <p class="section-intro">Séminaires, conférences et groupes de travail.</p>

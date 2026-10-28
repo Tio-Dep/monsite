@@ -559,7 +559,9 @@ a.card:hover .more::after { transform: translateX(4px); }
 }
 @media (max-width: 640px) {
   .pub { grid-template-columns: 1fr; gap: .75rem; }
+  .pub > .btn, .pub > .badge-soon { justify-self: start; }
 }
+a.more { text-decoration: none; }
 .pub, #these { scroll-margin-top: 6rem; }
 .pub:target { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 35%, transparent), var(--shadow); }
 .pub-year {
