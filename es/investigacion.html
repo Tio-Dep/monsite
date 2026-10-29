@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Investigación · Tioma Deparpe</title>
+  <meta name="description" content="Temas de investigación de Tioma Deparpe: análisis, EDP, leyes de conservación escalares, dinámica peatonal, aprendizaje profundo, problemas inversos.">
+  <meta name="theme-color" content="#c8553d">
+  <link rel="alternate" hreflang="fr" href="../recherche.html">
+  <link rel="alternate" hreflang="en" href="../en/research.html">
+  <link rel="alternate" hreflang="es" href="investigacion.html">
+  <link rel="alternate" hreflang="x-default" href="../en/research.html">
+  <script src="../assets/js/lang.js"></script>
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Ir al contenido</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TD</span>Tioma Deparpe</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span></span><span class="visually-hidden">Menú</span></button>
+        <ul class="nav-links" id="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="investigacion.html" aria-current="page">Investigación</a></li>
+          <li><a href="docencia.html">Docencia</a></li>
+          <li><a href="publicaciones.html">Publicaciones</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero page-hero">
+      <div class="container">
+        <span class="eyebrow">Investigación</span>
+        <h1>Intereses y actividades</h1>
+        <p>Mi trabajo de tesis se centra principalmente en el análisis de ecuaciones en derivadas parciales hiperbólicas, su simulación numérica y la identificación de sus parámetros, a partir de datos o no.</p>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40c240 40 480 40 720 20S1200 0 1440 30v50H0Z"/></svg>
+    </section>
+
+    <!-- Thèse -->
+    <section class="section section-soft" id="these">
+      <div class="container">
+        <article class="thesis reveal">
+          <span class="tag">Tema de tesis</span>
+          <p class="thesis-title">«&nbsp;Leyes de conservación con flujo singular y no local: modelos numéricos e identificación de parámetros&nbsp;»</p>
+          <!-- Résumé issu de theses.fr -->
+          <p>Este proyecto de tesis trata del estudio teórico, numérico e inverso de las leyes de conservación escalares con flujo singular y no local, motivadas por la modelización de los dispositivos de transporte de mercancías (cintas transportadoras, <em>conveyor belts</em>) y de las dinámicas de tráfico. Su objetivo es analizar modelos hiperbólicos que presentan una velocidad de propagación infinita, desarrollar esquemas numéricos robustos (Volúmenes Finitos, Wave-Front Tracking, Follow-the-Leader) e integrar después enfoques de aprendizaje profundo para la identificación de parámetros ocultos y la asimilación de datos.</p>
+          <p>Se construirá una biblioteca de código abierto para la comunidad, antes de abordar bien el análisis teórico de los métodos híbridos, bien la extensión del modelo a redes de cintas transportadoras mediante solucionadores de Riemann y una reformulación de Hamilton-Jacobi.</p>
+          <p style="margin-bottom:0">Tesis preparada en el <a href="https://www.idpoisson.fr/" target="_blank" rel="noopener">Institut Denis Poisson</a> bajo la dirección de <a href="index.html#contenu">Boris Andreianov y Vincent Perrollaz</a>. Esta descripción, tomada de la página de la tesis en theses.fr, podrá actualizarse a medida que avance el trabajo.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Domaines -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Áreas</h2>
+        <p class="section-intro">Los temas en torno a los cuales se organiza mi trabajo.</p>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c4-1 5-6 6-10s2-7 6-6"/><path d="M14 20h6M4 4v16h16"/></svg>
+            </div>
+            <h3>Análisis</h3>
+            <div class="tags"><span class="tag">Análisis funcional</span><span class="tag">Compacidad y convergencia</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble ochre" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4M7 4v6M4 14h6M15 6a3 3 0 1 1 0 6 3 3 0 1 1 0-6Z"/><path d="M13 16l6 4M19 16l-6 4"/></svg>
+            </div>
+            <h3>Ecuaciones en derivadas parciales</h3>
+            <div class="tags"><span class="tag">EDP hiperbólicas</span><span class="tag">Soluciones entrópicas</span><span class="tag">Leyes de conservación</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble olive" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h5l3-8h10"/><path d="M3 8h5"/></svg>
+            </div>
+            <h3>Leyes de conservación escalares</h3>
+            <div class="tags"><span class="tag">Flujo singular</span><span class="tag">No local</span><span class="tag">Volúmenes finitos</span></div>
+            <a class="more" href="publicaciones.html#wave-front-tracking">Memoria: Wave Front Tracking</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4.5" r="1.8"/><path d="M7 7v6l-2 7M7 13l2 7M4 10h6"/><circle cx="17" cy="4.5" r="1.8"/><path d="M17 7v6l-2 7M17 13l2 7M14 10h6"/></svg>
+            </div>
+            <h3>Dinámica peatonal</h3>
+            <div class="tags"><span class="tag">Restricciones</span><span class="tag">Tráfico</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble ochre" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="m7 7 3 4M7 17l3-4M14 11l3-4M14 13l3 4"/></svg>
+            </div>
+            <h3>Aprendizaje profundo</h3>
+            <div class="tags"><span class="tag">Redes neuronales</span><span class="tag">PINN</span><span class="tag">Cálculo científico</span></div>
+            <a class="more" href="publicaciones.html#pinn">Memoria: PINN</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble olive" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <h3>Problemas inversos</h3>
+            <div class="tags"><span class="tag">Identificación</span><span class="tag">Optimización</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activités : section masquée pour l'instant (attribut hidden).
+         Pour l'afficher, retirer « hidden » ci-dessous. -->
+    <section class="section section-soft">
+      <div class="container">
+        <h2 class="section-title">Actividades</h2>
+        <p class="section-intro">Seminarios, congresos…</p>
+        <!-- À COMPLÉTER : ajouter une <li> par activité, sur le modèle ci-dessous -->
+        <ul class="timeline">
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>Jornada de doctorandos</h3>
+                <span class="course-meta">Institut Denis Poisson · Tours</span>
+              </div>
+              <p>2026<!-- À COMPLÉTER : exposés donnés, dates --></p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>Seminarios de Análisis del IDP</h3>
+                <span class="course-meta">Los jueves</span>
+              </div>
+              <p>La lista se actualizará a lo largo de la tesis.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>Reunión del equipo EMS del IDP</h3>
+                <span class="course-meta">Institut Denis Poisson · Tours</span>
+              </div>
+              <p>2026<!-- À COMPLÉTER : exposés donnés, dates --></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>Memorias y artículos</h2>
+            <p>Los documentos resultantes de este trabajo están reunidos en la página Publicaciones.</p>
+          </div>
+          <a class="btn" href="publicaciones.html">Ver las publicaciones</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <nav class="lang-switch" aria-label="Elegir idioma">
+    <a href="../recherche.html" hreflang="fr" lang="fr" data-lang="fr" title="Français"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1" height="2" fill="#002654"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce1126"/></svg><span class="visually-hidden">Français</span></a>
+    <a href="../en/research.html" hreflang="en" lang="en" data-lang="en" title="English"><svg viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><clipPath id="uk-t"><path d="M30,15h30v15zv15h-30zh-30v-15zv-15h30z"/></clipPath><rect width="60" height="30" fill="#012169"/><path d="M0,0L60,30M60,0L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0L60,30M60,0L0,30" clip-path="url(#uk-t)" stroke="#c8102e" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#c8102e" stroke-width="6"/></svg><span class="visually-hidden">English</span></a>
+    <a href="investigacion.html" hreflang="es" lang="es" data-lang="es" title="Español" aria-current="true"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="3" height="2" fill="#aa151b"/><rect y=".5" width="3" height="1" fill="#f1bf00"/></svg><span class="visually-hidden">Español</span></a>
+  </nav>
+
+  <button class="to-top" type="button" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+</body>
+</html>

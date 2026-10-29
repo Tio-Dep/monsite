@@ -6,6 +6,11 @@
   <title>Enseignement · Tioma Deparpe</title>
   <meta name="description" content="Enseignements de Tioma Deparpe : algèbre et théorie des graphes à Supinfo.">
   <meta name="theme-color" content="#c8553d">
+  <link rel="alternate" hreflang="fr" href="enseignement.html">
+  <link rel="alternate" hreflang="en" href="en/teaching.html">
+  <link rel="alternate" hreflang="es" href="es/docencia.html">
+  <link rel="alternate" hreflang="x-default" href="en/teaching.html">
+  <script src="assets/js/lang.js"></script>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +50,9 @@
     <section class="section section-soft">
       <div class="container">
         <h2 class="section-title">En cours</h2>
-        <!-- À COMPLÉTER : remplacer ce bloc par des cartes sur le modèle de la section « Passés » -->
+        <!-- Une <li> par cours en cours, sur le modèle de la section « Passés » -->
         <ul class="timeline">
-         <li class="reveal">
+          <li class="reveal">
             <article class="card">
               <div class="course-head">
                 <h3>Supinfo (prévu en 2027) : Algèbre</h3>
@@ -58,7 +63,7 @@
               <div class="tags"><span class="tag">Algèbre</span></div>
             </article>
           </li>
-                 <li class="reveal">
+          <li class="reveal">
             <article class="card">
               <div class="course-head">
                 <h3>Supinfo (prévu en 2027) : autres</h3>
@@ -69,8 +74,8 @@
               <div class="tags"><span class="tag">Autres</span></div>
             </article>
           </li>
+        </ul>
         <div class="empty reveal">Pas d'autre enseignement cette année pour l'instant. Cette section sera mise à jour au fur et à mesure.</div>
-                  </ul>
       </div>
     </section>
 
@@ -82,7 +87,7 @@
             <article class="card">
               <div class="course-head">
                 <h3>Supinfo : Algèbre</h3>
-                <span class="course-meta"><1ères années></span>
+                <span class="course-meta">1ères années</span>
               </div>
               <!-- À COMPLÉTER : volume horaire, type (CM / TD), contenu -->
               <p>Calcul matriciel.</p>
@@ -93,10 +98,10 @@
             <article class="card">
               <div class="course-head">
                 <h3>Supinfo : Théorie des graphes</h3>
-                <span class="course-meta"><3ièmes années></span>
+                <span class="course-meta">3èmes années</span>
               </div>
               <!-- À COMPLÉTER : volume horaire, type (CM / TD), contenu -->
-              <p>Théorie des graphe et algorithmes associés.</p>
+              <p>Théorie des graphes et algorithmes associés.</p>
               <div class="tags"><span class="tag">Algorithmes</span><span class="tag">Mathématiques appliquées</span></div>
             </article>
           </li>
@@ -117,6 +122,12 @@
     </section>
   </main>
 
+
+  <nav class="lang-switch" aria-label="Choisir la langue">
+    <a href="enseignement.html" hreflang="fr" lang="fr" data-lang="fr" title="Français" aria-current="true"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1" height="2" fill="#002654"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce1126"/></svg><span class="visually-hidden">Français</span></a>
+    <a href="en/teaching.html" hreflang="en" lang="en" data-lang="en" title="English"><svg viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><clipPath id="uk-t"><path d="M30,15h30v15zv15h-30zh-30v-15zv-15h30z"/></clipPath><rect width="60" height="30" fill="#012169"/><path d="M0,0L60,30M60,0L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0L60,30M60,0L0,30" clip-path="url(#uk-t)" stroke="#c8102e" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#c8102e" stroke-width="6"/></svg><span class="visually-hidden">English</span></a>
+    <a href="es/docencia.html" hreflang="es" lang="es" data-lang="es" title="Español"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="3" height="2" fill="#aa151b"/><rect y=".5" width="3" height="1" fill="#f1bf00"/></svg><span class="visually-hidden">Español</span></a>
+  </nav>
 
   <button class="to-top" type="button" aria-label="Retour en haut">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>

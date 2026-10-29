@@ -59,7 +59,8 @@
   document.querySelectorAll("[data-copy]").forEach(function (btn) {
     btn.addEventListener("click", function () {
       var value = btn.getAttribute("data-copy");
-      var done = function () { showToast("Adresse copiée : " + value); };
+      var label = { en: "Address copied: ", es: "Dirección copiada: " }[document.documentElement.lang] || "Adresse copiée : ";
+      var done = function () { showToast(label + value); };
       if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(value).then(done, function () { fallbackCopy(value); done(); });
       } else {

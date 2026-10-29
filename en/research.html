@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Research · Tioma Deparpe</title>
+  <meta name="description" content="Research topics of Tioma Deparpe: analysis, PDEs, scalar conservation laws, pedestrian dynamics, deep learning, inverse problems.">
+  <meta name="theme-color" content="#c8553d">
+  <link rel="alternate" hreflang="fr" href="../recherche.html">
+  <link rel="alternate" hreflang="en" href="research.html">
+  <link rel="alternate" hreflang="es" href="../es/investigacion.html">
+  <link rel="alternate" hreflang="x-default" href="research.html">
+  <script src="../assets/js/lang.js"></script>
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TD</span>Tioma Deparpe</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span></span><span class="visually-hidden">Menu</span></button>
+        <ul class="nav-links" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero page-hero">
+      <div class="container">
+        <span class="eyebrow">Research</span>
+        <h1>Interests and activities</h1>
+        <p>My doctoral work mainly focuses on the analysis of hyperbolic partial differential equations, their numerical simulation and the identification of their parameters, with or without data.</p>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40c240 40 480 40 720 20S1200 0 1440 30v50H0Z"/></svg>
+    </section>
+
+    <!-- Thèse -->
+    <section class="section section-soft" id="these">
+      <div class="container">
+        <article class="thesis reveal">
+          <span class="tag">Thesis topic</span>
+          <p class="thesis-title">“Conservation laws with singular and nonlocal flux: numerical models and parameter identification”</p>
+          <!-- Résumé issu de theses.fr -->
+          <p>This thesis project concerns the theoretical, numerical and inverse study of scalar conservation laws with singular and nonlocal flux, motivated by the modelling of goods transport devices (conveyor belts) and traffic dynamics. It aims to analyse hyperbolic models exhibiting an infinite speed of propagation, to develop robust numerical schemes (Finite Volumes, Wave-Front Tracking, Follow-the-Leader), and then to incorporate deep learning approaches for the identification of hidden parameters and data assimilation.</p>
+          <p>An open-source library will be built for the community, before addressing either the theoretical analysis of hybrid methods or the extension of the model to conveyor networks via Riemann solvers and a Hamilton–Jacobi reformulation.</p>
+          <p style="margin-bottom:0">Thesis prepared at the <a href="https://www.idpoisson.fr/" target="_blank" rel="noopener">Institut Denis Poisson</a> under the supervision of <a href="index.html#contenu">Boris Andreianov and Vincent Perrollaz</a>. This description, taken from the thesis page on theses.fr, may be updated as the work progresses.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Domaines -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Fields</h2>
+        <p class="section-intro">The topics around which my work is organised.</p>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c4-1 5-6 6-10s2-7 6-6"/><path d="M14 20h6M4 4v16h16"/></svg>
+            </div>
+            <h3>Analysis</h3>
+            <div class="tags"><span class="tag">Functional analysis</span><span class="tag">Compactness and convergence</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble ochre" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4M7 4v6M4 14h6M15 6a3 3 0 1 1 0 6 3 3 0 1 1 0-6Z"/><path d="M13 16l6 4M19 16l-6 4"/></svg>
+            </div>
+            <h3>Partial differential equations</h3>
+            <div class="tags"><span class="tag">Hyperbolic PDEs</span><span class="tag">Entropy solutions</span><span class="tag">Conservation laws</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble olive" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h5l3-8h10"/><path d="M3 8h5"/></svg>
+            </div>
+            <h3>Scalar conservation laws</h3>
+            <div class="tags"><span class="tag">Singular flux</span><span class="tag">Nonlocal</span><span class="tag">Finite volumes</span></div>
+            <a class="more" href="publications.html#wave-front-tracking">Dissertation: Wave Front Tracking</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4.5" r="1.8"/><path d="M7 7v6l-2 7M7 13l2 7M4 10h6"/><circle cx="17" cy="4.5" r="1.8"/><path d="M17 7v6l-2 7M17 13l2 7M14 10h6"/></svg>
+            </div>
+            <h3>Pedestrian dynamics</h3>
+            <div class="tags"><span class="tag">Constraints</span><span class="tag">Traffic</span></div>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble ochre" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="m7 7 3 4M7 17l3-4M14 11l3-4M14 13l3 4"/></svg>
+            </div>
+            <h3>Deep learning</h3>
+            <div class="tags"><span class="tag">Neural networks</span><span class="tag">PINN</span><span class="tag">Scientific computing</span></div>
+            <a class="more" href="publications.html#pinn">Dissertation: PINN</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon-bubble olive" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 4v5h-5"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <h3>Inverse problems</h3>
+            <div class="tags"><span class="tag">Identification</span><span class="tag">Optimisation</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activités : section masquée pour l'instant (attribut hidden).
+         Pour l'afficher, retirer « hidden » ci-dessous. -->
+    <section class="section section-soft">
+      <div class="container">
+        <h2 class="section-title">Activities</h2>
+        <p class="section-intro">Seminars, conferences…</p>
+        <!-- À COMPLÉTER : ajouter une <li> par activité, sur le modèle ci-dessous -->
+        <ul class="timeline">
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>PhD students' day</h3>
+                <span class="course-meta">Institut Denis Poisson · Tours</span>
+              </div>
+              <p>2026<!-- À COMPLÉTER : exposés donnés, dates --></p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>IDP Analysis seminars</h3>
+                <span class="course-meta">Thursdays</span>
+              </div>
+              <p>The list will be updated as the thesis progresses.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="card">
+              <div class="course-head">
+                <h3>IDP EMS team meeting</h3>
+                <span class="course-meta">Institut Denis Poisson · Tours</span>
+              </div>
+              <p>2026<!-- À COMPLÉTER : exposés donnés, dates --></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>Dissertations and papers</h2>
+            <p>The documents resulting from this work are gathered on the Publications page.</p>
+          </div>
+          <a class="btn" href="publications.html">See publications</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <nav class="lang-switch" aria-label="Choose language">
+    <a href="../recherche.html" hreflang="fr" lang="fr" data-lang="fr" title="Français"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="1" height="2" fill="#002654"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce1126"/></svg><span class="visually-hidden">Français</span></a>
+    <a href="research.html" hreflang="en" lang="en" data-lang="en" title="English" aria-current="true"><svg viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><clipPath id="uk-t"><path d="M30,15h30v15zv15h-30zh-30v-15zv-15h30z"/></clipPath><rect width="60" height="30" fill="#012169"/><path d="M0,0L60,30M60,0L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0L60,30M60,0L0,30" clip-path="url(#uk-t)" stroke="#c8102e" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#c8102e" stroke-width="6"/></svg><span class="visually-hidden">English</span></a>
+    <a href="../es/investigacion.html" hreflang="es" lang="es" data-lang="es" title="Español"><svg viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="3" height="2" fill="#aa151b"/><rect y=".5" width="3" height="1" fill="#f1bf00"/></svg><span class="visually-hidden">Español</span></a>
+  </nav>
+
+  <button class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+</body>
+</html>
